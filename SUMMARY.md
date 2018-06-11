@@ -11,3 +11,4 @@
     * [7. 分布式微服务架构](ch1/sec7.md)
 * [第二章 Spring Boot](ch2/sec0.md)
 * [第三章 Eureka](ch3/sec0.md)
+* [第四章 Eureka](ch3/sec0.md)
