@@ -15,3 +15,5 @@
 * [第五章 Ribbon负载均衡](ch5/sec0.md)
 * [第六章 Zuul API网关](ch6/sec0.md)
 * [第七章 Sleuth分布式日志](ch7/sec0.md)
+* [第八章 配置中心](ch7/sec0.md)
+* [第九章 配置总线](ch7/sec0.md)
