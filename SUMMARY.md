@@ -1,6 +1,6 @@
 # Summary
 
-* [前言](README.md)
+* [简介](README.md)
 * [第一章 基本概念](ch1/sec0.md)
     * [1. Spring Cloud](ch1/sec1.md)
     * [2. Spring Boot](ch1/sec2.md)
