@@ -5,4 +5,4 @@
 
 ##单体应用
 假设我们要开发一个网站，通常一开始可能会是是这个样子。
-![](/asserts/monolithic.png)
+![](/assets/monolithic.png)
