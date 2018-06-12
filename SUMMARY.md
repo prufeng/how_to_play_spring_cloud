@@ -13,7 +13,7 @@
 * [第三章 Eureka服务注册中心](ch3/sec0.md)
 * [第四章 Feign服务调用](ch4/sec0.md)
 * [第五章 Ribbon负载均衡](ch5/sec0.md)
-* [第六章 Hytrix断路器](ch6/sec0.md)
+* [第六章 Hystrix断路器](ch6/sec0.md)
 * [第七章 Zuul API网关](ch7/sec0.md)
 * [第八章 Sleuth分布式日志](ch8/sec0.md)
 * [第九章 配置中心](ch9/sec0.md)
