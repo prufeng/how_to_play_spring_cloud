@@ -7,5 +7,5 @@
 &ensp; &ensp; [本书目录](SUMMARY.md)
 
 ###联系方式：
-*Blog: [https://blog.csdn.net/prufeng](https://blog.csdn.net/prufeng)    
-*Email: [xingzhikong@126.com](xingzhikong@126.com)
+* Blog: [https://blog.csdn.net/prufeng](https://blog.csdn.net/prufeng) 
+* Email: [xingzhikong@126.com](xingzhikong@126.com)
