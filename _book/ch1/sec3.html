@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>3. 面向服务架构 · GitBook</title>
+        <title>3. 分布式系统 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -94,7 +94,7 @@
                 <a href="../">
             
                     
-                    前言
+                    简介
             
                 </a>
             
@@ -102,12 +102,12 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="sec0.md">
+        <li class="chapter " data-level="1.2" data-path="sec0.html">
             
-                <span>
+                <a href="sec0.html">
             
                     
-                    第一章 微服务
+                    第一章 基本概念
             
                 </a>
             
@@ -121,7 +121,7 @@
                 <a href="sec1.html">
             
                     
-                    1. 什么是微服务
+                    1. 什么是Spring Cloud
             
                 </a>
             
@@ -134,7 +134,7 @@
                 <a href="sec2.html">
             
                     
-                    2. 单体应用
+                    2. 什么是Spring Boot
             
                 </a>
             
@@ -147,7 +147,7 @@
                 <a href="sec3.html">
             
                     
-                    3. 面向服务架构
+                    3. 分布式系统
             
                 </a>
             
@@ -160,7 +160,46 @@
                 <a href="sec4.html">
             
                     
-                    4. 微服务架构
+                    4. 单体应用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="sec5.html">
+            
+                <a href="sec5.html">
+            
+                    
+                    5. SOA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="sec6.md">
+            
+                <span>
+            
+                    
+                    6. 微服务
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="sec7.md">
+            
+                <span>
+            
+                    
+                    7. 分布式微服务架构
             
                 </a>
             
@@ -178,7 +217,111 @@
                 <span>
             
                     
-                    第二章 微服务2
+                    第二章 Spring Boot
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ch3/sec0.md">
+            
+                <span>
+            
+                    
+                    第三章 Eureka服务注册中心
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../ch4/sec0.md">
+            
+                <span>
+            
+                    
+                    第四章 Feign服务调用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../ch5/sec0.html">
+            
+                <a href="../ch5/sec0.html">
+            
+                    
+                    第五章 Ribbon负载均衡
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../ch6/sec0.html">
+            
+                <a href="../ch6/sec0.html">
+            
+                    
+                    第六章 Hystrix断路器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../ch7/sec0.md">
+            
+                <span>
+            
+                    
+                    第七章 Zuul API网关
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../ch8/sec0.md">
+            
+                <span>
+            
+                    
+                    第八章 Sleuth分布式日志
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../ch9/sec0.md">
+            
+                <span>
+            
+                    
+                    第九章 配置中心
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../ch10/sec0.md">
+            
+                <span>
+            
+                    
+                    第十章 配置总线
             
                 </a>
             
@@ -216,7 +359,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >3. 面向服务架构</a>
+        <a href=".." >3. 分布式系统</a>
     </h1>
 </div>
 
@@ -231,7 +374,10 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="3-&#x9762;&#x5411;&#x670D;&#x52A1;&#x67B6;&#x6784;">3. &#x9762;&#x5411;&#x670D;&#x52A1;&#x67B6;&#x6784;</h1>
+                                <h1 id="3-&#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;">3. &#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;</h1>
+<p>&#x2002; &#x2002; Spring Cloud&#x4E3B;&#x8981;&#x662F;&#x4E3A;&#x4E86;&#x7B80;&#x5316;&#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;&#x7684;&#x642D;&#x5EFA;&#xFF0C;&#x90A3;&#x4E48;&#xFF0C;&#x4EC0;&#x4E48;&#x662F;&#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;&#xFF1F;&#x8FD9;&#x91CC;&#x4E5F;&#x7B80;&#x5355;&#x89E3;&#x91CA;&#x4E00;&#x4E0B;&#x3002;
+&#x2002; &#x2002; &#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;&#x662F;&#x5EFA;&#x7ACB;&#x5728;&#x7F51;&#x7EDC;&#x4E4B;&#x4E0A;&#x7684;&#x8F6F;&#x4EF6;&#x7CFB;&#x7EDF;&#xFF0C;&#x5B83;&#x7684;&#x7EC4;&#x4EF6;&#x5206;&#x5E03;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x7F51;&#x7EDC;&#x8BA1;&#x7B97;&#x673A;&#x4E0A;&#xFF0C;&#x901A;&#x8FC7;&#x6D88;&#x606F;&#x4F20;&#x9012;&#x6765;&#x901A;&#x4FE1;&#x548C;&#x534F;&#x8C03;&#x4E00;&#x81F4;&#x3002;
+&#x2002; &#x2002; &#x6211;&#x4EEC;&#x5728;&#x751F;&#x6D3B;&#x4E2D;&#x901A;&#x5E38;&#x6240;&#x8BBF;&#x95EE;&#x548C;&#x63A5;&#x89E6;&#x5230;&#x7F51;&#x7AD9;&#x548C;&#x5E94;&#x7528;&#xFF0C;&#x5927;&#x591A;&#x6570;&#x80CC;&#x540E;&#x90FD;&#x662F;&#x4E00;&#x4E2A;&#x5206;&#x5E03;&#x5F0F;&#x7CFB;&#x7EDF;&#x3002;&#x4E3A;&#x4EC0;&#x4E48;&#x5462;&#xFF1F;&#x56E0;&#x4E3A;&#x5DE8;&#x5927;&#x7684;&#x8BBF;&#x95EE;&#x91CF;&#xFF0C;&#x4E00;&#x822C;&#x5E76;&#x4E0D;&#x662F;&#x5355;&#x4F53;&#x5E94;&#x7528;&#x7684;&#x67B6;&#x6784;&#x53EF;&#x4EE5;&#x5904;&#x7406;&#x5F97;&#x6765;&#x3002;</p>
 
                                 
                                 </section>
@@ -259,12 +405,12 @@
 
             
                 
-                <a href="sec2.html" class="navigation navigation-prev " aria-label="Previous page: 2. 单体应用">
+                <a href="sec2.html" class="navigation navigation-prev " aria-label="Previous page: 2. 什么是Spring Boot">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="sec4.html" class="navigation navigation-next " aria-label="Next page: 4. 微服务架构">
+                <a href="sec4.html" class="navigation navigation-next " aria-label="Next page: 4. 单体应用">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -275,7 +421,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3. 面向服务架构","level":"1.2.3","depth":2,"next":{"title":"4. 微服务架构","level":"1.2.4","depth":2,"path":"ch1/sec4.md","ref":"ch1/sec4.md","articles":[]},"previous":{"title":"2. 单体应用","level":"1.2.2","depth":2,"path":"ch1/sec2.md","ref":"ch1/sec2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch1/sec3.md","mtime":"2018-05-06T09:25:10.616Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-06T10:28:18.544Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3. 分布式系统","level":"1.2.3","depth":2,"next":{"title":"4. 单体应用","level":"1.2.4","depth":2,"path":"ch1/sec4.md","ref":"ch1/sec4.md","articles":[]},"previous":{"title":"2. 什么是Spring Boot","level":"1.2.2","depth":2,"path":"ch1/sec2.md","ref":"ch1/sec2.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"ch1/sec3.md","mtime":"2018-06-13T05:57:34.502Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-06-14T02:45:32.674Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
