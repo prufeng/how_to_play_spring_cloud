@@ -1,4 +1,4 @@
-# Summary
+# 目录
 
 * [简介](README.md)
 * [第一章 基本概念](ch1/sec0.md)
@@ -6,7 +6,7 @@
   * [2. 什么是Spring Boot](ch1/sec2.md)
   * [3. 分布式系统](ch1/sec3.md)
   * [4. 单体应用](ch1/sec4.md)
-  * [5. SOA](ch1/sec5.md)
+  * [5. 面向服务架构](ch1/sec5.md)
   * [6. 微服务](ch1/sec6.md)
   * [7. 分布式微服务架构](ch1/sec7.md)
 * [第二章 Spring Boot](ch2/sec0.md)
@@ -18,4 +18,5 @@
 * [第八章 Sleuth分布式日志](ch8/sec0.md)
 * [第九章 配置中心](ch9/sec0.md)
 * [第十章 配置总线](ch10/sec0.md)
+* [参考资料](reference.md)
 
